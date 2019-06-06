@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<title>Registration Page</title>
+  <script src="jquery-3.2.1.js"></script>
+
+<style>
+	
+	#d1{
+		border:1px solid;
+		width:20%;
+		height:60%;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+		display:inline;
+		position:fixed;
+	}
+	#d2{
+		margin:-20px 0px 0px 0px;
+		background-color:skyblue;
+	}
+
+	#b1{
+		width:50px;
+		height:30px;
+		postion:fixed;
+		margin:0px 0px 0px 0px;
+	}
+</style>
+<script>
+
+$(document).ready(function(){
+	$("#d1").hide();
+    $("img").click(function(){
+		
+        $("#d1").toggle({width:'60px'});
+    });
+});
+</script>
+
+</head>
+
+<body style="margin:0px 0px 0px 0px">
+	                           
+	<div id="d1">
+
+		<center>
+		
+		<div id="d2">
+		
+		<h2 style="background-color:">Registration Form</h2>
+		</div>
+		<input type="text" placeholder="First Name"><br><br>
+		<input type="text" placeholder="Last Name"><br><br>
+		<input type="text" placeholder="Email Id"><br><br>
+		<input type="text" placeholder="Password"><br><br>
+		<input type="text" placeholder="Mobile Number"><br><br>
+		Gender: <input type="radio">Male
+				<input type="radio">Female<br><br>
+		<input type="checkbox">I Agree terms & Conditions<br><br>
+		<input type="button" value="submit">
+		<input type="button" value="reset">	
+		</center>
+		
+	</div>	
+		<img src="reg.png" style="height:230px;position:fixed;width:50px;float:left;margin:0px 0px 0px 0px"> 
+</body>
+</html>

@@ -1,0 +1,1058 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet icon" href="1.png">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+     $(document).ready(function(){
+	 
+	     $("#slide").click(function(){
+		      			  $("#regform").css("display","block")
+ 
+	          $("#regform").animate({width:"250px"},200)
+			   $("#name").animate({marginLeft:"250px"},200)
+	           
+	     })
+		  $("#back").click(function(){
+		  	          $("#regform").animate({width:"0px"},200)
+		 $("#name").animate({marginLeft:"0px"},200)
+		 return false;
+	           
+
+	     })
+		 
+		
+	 })
+   
+  
+  
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+        <meta charset="utf-8">
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+		
+        <title>PRILOR TECHNOLOGIES</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/skillbar.css" >
+        <link rel="stylesheet" href="css/slicknav.min.css" >
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/star-rating-svg.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/fix.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora" rel="stylesheet">
+		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<style>
+		@media (min-width:320px) and (max-width:480px)          { .about h2::before {left:285px !important;}
+		                                                           .about h2::after {right:285px !important;}
+		                                                          .services .section-header h2::after { right: 292px !important;}
+																 .services .section-header h2::before {left: 292px !important;}
+                                                                 .portfolio .section-header h2::before {left: 295px !important;}
+																  .portfolio .section-header h2::after {right: 295px !important;}
+																 .mfp-content{margin:210px 0 0 0 !important;}
+                                                                 .service h2{font-size:30px !important;}
+                                                                 .service h2::after {top:14px !important;}
+                                                                 .service h2::before {top:14px !important;}
+	                                                             .Portfolios h2{font-size:29px !important;}
+																 .Portfolios h2::after {top:12px !important;}
+																 .Portfolios h2::before {top:12px !important;}
+		}
+		
+		
+body{}	
+		
+		
+.section-header h2 span {
+    color: #20c89e;
+	
+	}
+.header-main {
+    background: rgba(0, 0, 0, 0) url("bg_img.jpg") no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+}		
+	
+.header-main-text h1 {
+    
+    font-size: 48px;
+    color: #ffffff;
+}		
+		
+.main-menu ul {
+    float: right;
+    list-style: outside none none;
+    margin-top: 26px;}
+	
+.header-top {
+    left: 0;
+    padding: 12px 20px 0px 0px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	height: 95px;
+}	
+
+.slicknav_menu{
+	position:fixed;
+}
+		
+.img-responsive{
+    display: block;
+    max-width: 112%;
+	}
+.section-header p {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+	text-align:justify;
+
+}
+.section-header {
+    margin: auto;
+    max-width: 840px;
+    text-align: center;
+}
+.section-header h2::before {
+    background: #3498db none repeat scroll 0 0;
+    border-radius: 0 50px;
+    content: "";
+    height: 10px;
+    left: 266px;
+    position: absolute;
+    top: 18px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 10px;}
+	
+	.section-header h2::after {
+    background: #3498db none repeat scroll 0 0;
+    border-radius: 50px 0;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: 266px;
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 10px;
+}
+.fix-top {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    padding: 10px 40px;
+    transition: .8s;
+    z-index: 9999999;
+}
+.header-top {
+    left: 0;
+    padding: 12px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+figure {
+    margin: 0;
+    width: 100%;
+    height: 225px;
+}
+
+
+.header-main-text h1 {
+   font-family: "montserrat-regular";
+    font-size: 48px;
+    color: #ffffff;
+}
+.services .section-header h2::before {
+    left: 220px;
+}
+
+.services .section-header h2::after {
+    right: 220px;
+}
+.about-content .tab-content article p {
+    color: #000000;
+    font-family: "montserrat-light";
+    line-height: 27px;
+    margin-top: 25px;
+	text-align:justify;
+}
+
+.section-header p {
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.services .section-content article p {
+    font-family: "Lato",sans-serif;
+    line-height: 24px;
+	font-align: justify;
+	}
+.portfolio .section-header h2::before {
+    left: 215px;
+	}
+.portfolio .section-header h2::after {
+    right: 215px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 112%;
+}
+.mfp-container {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    left: 0;
+    top: -100px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.img img {
+    width: 100%;
+    height: 225px;
+}
+
+
+.section-header h2 span {
+    color:  #3498db;;
+}
+.testimonial .section-header h2::after {
+    right: 185px;}
+	
+.testimonial .section-header h2::before {
+	left: 185px;}
+
+.team .section-header h2::before {
+    left: 180px;
+}
+.team .section-header h2::after {
+    right: 180px;
+}
+.latest-blog .section-header h2::before {
+    left: 240px;
+}
+.latest-blog .section-header h2::after {
+    right: 245px;
+}
+
+.contact .section-header h2::before {
+    left: 250px;
+}
+.contact .section-header h2::after {
+    right: 250px;
+}
+.blog-content .col-md-6 > img {
+    height: auto;
+    width: 85%;}
+
+	.img.mfp-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 40px 0 40px;
+    margin: 0 auto;
+}
+.team .pic > img {
+    height: 340px;
+    width: 100%;
+	}
+	
+	.a {
+display: none;
+}
+
+
+#i1{
+  cursor:pointer;
+
+}
+
+#i1:hover {
+color:purple;
+border:5px solid #d3d3d3;
+}
+
+
+
+
+
+
+
+
+
+	#d2{
+			width:100%;
+			height:100%;
+			margin:-28px 0px 0px 0px;
+			background-image:url('bgimg2.jpg');
+			background-repeat:no-repeat;
+			
+		}
+		#x1{
+			width:85%;
+			color:white;
+			margin:30px 0px 0px 90px;
+			padding-top:20px;
+		}
+		.i1{
+			width:90px;
+			float:left;
+			display:inline;
+			border-radius:100px;
+			
+			margin:30px 0px 0px 130px;
+		}
+		.i2{
+			width:90px;
+			float:left;
+			display:inline;
+			border-radius:100px;
+			
+			margin:30px 0px 0px 130px;
+		}
+		#s1{
+			float:left;
+		
+			margin:130px 0px 0px -180px;
+		}
+		#b1{
+			float:left;
+		color:white;
+			height:30px;
+			border-radius:3px;
+			border:0px;
+			background-color:  #8C3734;
+			margin:440px 0px 0px -60px;
+		}
+		#s2{
+			float:left;
+		
+			margin:130px 0px 0px -160px;
+		}
+		
+		#s3{
+			float:left;
+			margin:130px 0px 0px -170px;
+		}
+		#b3{
+			float:left;
+			height:30px;
+			border:0px;
+			color:white;
+			border-radius:3px;
+			background-color: #8C3734;
+			margin:440px 0px 0px -90px;
+		}
+		#s4{
+			float:left;
+			margin:130px 0px 0px -150px;
+		}
+		#b4{
+			float:left;
+			color:white;	
+			height:30px;
+			border:0px;
+			border-radius:3px;
+			background-color: #8C3734;
+			margin:500px 0px 0px -95px;
+		}
+		#q1{
+			float:left;
+		
+			width:15%;
+		
+			border-radius:3px;
+			
+			margin:200px 0px 0px -120px;
+		}
+		.logo img
+		{
+			background-color:#cccccc;
+			border-radius:10px;
+		}
+		#regform{
+		display:inline;
+		background-color:silver;
+		width:0px;
+		overflow:hidden;
+		position:fixed;
+		height:400px;
+		}
+		#name{
+		
+		
+		}
+		#slide{
+		margin-top:150px;
+		position:fixed;
+		width:400px;
+		height:400px;
+		}
+			
+	</style>  
+   </head>
+	
+    <body>
+       
+       <!--====== Header Start ======-->
+              <div class="header-main" id="header">
+               <!--Header Top-->
+                
+                    <div class="row">
+                        <div class="header-top" id="stickyheader">
+                           <!--Colam-->
+                            <div class="col-md-2 col-sm-2 company">
+                               <!--Main Logo-->
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/after modification.png " alt="Logo" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                            <!--Colam-->
+                            <div class="col-md-10 col-sm-10">
+                                <nav class="main-menu">
+                                    <ul id="menu">
+                                        <li class="active"><a href="#header">Home</a></li>
+                                        <li><a href="#about-area">About</a></li>
+                                        <li><a href="#services">Services</a></li>
+                                        <li><a href="#portfolio">Portfolio</a></li>
+                                        <li><a href="#testimonial">Attorney</a></li>
+                                        <li><a href="#team">Team</a></li>
+                                        <!--<li><a href="#">Blog</a></li>-->
+                                        <li><a href="#contact">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>   
+                    <!--Header Main Text-->
+					<div id="slide">
+		                                 
+		
+		                        <div id="regform">
+								<button id="back" style="float:right"> goto back</button><br><br>
+								   <form>
+									
+									 <center>
+									  
+		                              <input  type="text" placeholder="First Name" class="q2"><br><br>
+		                              <input type="text" placeholder="Last Name" class="q2"><br><br>
+		                              <input type="text" placeholder="Email Id" class="q2"><br><br>
+		                              <input type="text" placeholder="Password" class="q2"><br><br>
+		                              <input type="text" placeholder="Mobile Number" class="q2"><br><br>
+		                              <span style="color:black">Gender: </span>
+		                              <input type="radio"><span style="color:black">Male</span>
+		                              <input type="radio"><span style="color:black">Female</span><br><br>
+		                              <input type="checkbox">
+		                              <span style="color:black">I Agree terms & Conditions</span><br><br>
+		                              <input type="button" value="submit" class="q2">
+		                              <input type="button" value="reset" class="q2">	
+		                            </center>
+		                          </form>    
+                               </div>
+				                   <div id="name">			       
+                                       <img src="rigister.jpg" height="150px" width="80px">
+                                   </div>
+						   
+						   </div>
+                    <div class="header-main-text">
+                       <div class="display-talbe">
+                           <div class="display-table-cell">
+                                <h1 class="tlt" data-in-effect="rollIn">Welcome to PRILOR!</h1>
+									<p style="font-size:25px;">
+										Make...  Believe...  Develop... 
+									</p>
+                                <div class="header-btn">
+                                    <a href="reg.html" class="dwn-cv">Hire Me !</a>
+                                    
+                                </div>
+								 </div>
+                    </div>
+                </div>
+            
+                              
+                      
+		<!--====== Header End ======-->	
+		
+		
+		<!--====== About Start ======-->
+        <section class="about section-padding" id="about-area">
+            <div class="container">
+               <!--Section Header-->
+                <div class="row">
+                    <div class="section-header about">
+                        <h2><span>About</span> Us</h2>
+                        <p class="text">PRILOR Tech is one of the most promising Companies in Hyderabad. It’s a Startup Company and have a great
+										network of clients and projects. We provide a secure career growth, who are willing to be with us. 
+										We specialize in providing Web Designing and Development Services, 
+										Social Media optimization (SMO) services, Application Development and Mobile Apps development services. 
+										We offer a comprehensive range of Website development services in Hyderabad.</p>
+                    </div>
+                </div>
+                <!--Section Content-->
+                <div class="row">
+                    <div class="section-centent">
+                        <div class="about-content">
+                            <div class="tab col-md-12 col-sm-12">
+                                <ul>
+                                    <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-users"></i>About</a></li>
+                                    <li><a href="#skill" data-toggle="tab"><i class="fa fa-rocket"></i>Skill</a></li>
+                                    <li><a href="#feature" data-toggle="tab"><i class="fa fa-pencil"></i>Feature</a></li>
+                                </ul>
+                            </div>
+                            <!--Colam-->
+                            <div class="col-md-12 col-sm-12">
+                                <div class="tab-content row">
+                                   <!--Colam-->
+                                    <div class="tab-pane active fade in col-md-12 col-sm-12" id="about">
+                                        <div class="row">
+                                            <article class="col-md-6 col-sm-12 text-left">
+                                                <h3>Our<span> Motto</span></h3>
+                                                <p>IT Services is an integral part of the Prilor IT Solutions, committed to service delivery and support to the client mission through innovative uses of technology. Prilor strives to align with the mission and priorites of the Clients. Deliver quality services in an effective manner. 
+												Work collaboratively, internally and externally to acheive measurable results for both innovation and operation.  </p>
+                                                <div class="btn">
+                                                    <a href="#">Read More</a>
+                                                </div>
+                                            </article>
+                                            <figure class="col-md-6 col-sm-12 img text-center wow animated infinite fadeInLeft">
+                                                <img src="img/about.png" alt="Team">
+                                            </figure>
+                                        </div>
+                                    </div>
+                                    <!--Colam-->
+                                    <div class="tab-pane col-md-12 col-sm-12" id="skill">
+                                        <div class="row">
+                                            <article class="col-md-6 col-sm-12 text-left">
+                                                <h3><span>SKILLS</span> WE EXPERTISE</h3>
+                                                <p>The range of skills and expertise we posses!</p>
+                                                <div class="btn">
+                                                    <a href="#">Read More</a>
+                                                </div>
+                                            </article>
+                                            <div class="col-md-6 col-sm-12 animated infinite fadeInUp">
+                                                 <div class="skillst9">
+                                                    <div class="skillbar" data-percent="85%">
+                                                        <div class="count-bar"></div>
+                                                        <div class="title">HTML/HTML 5</div>
+                                                        <div class="count"></div>
+                                                    </div>
+                                                    <div class="skillbar" data-percent="79%">
+                                                        <div class="title">CSS/CSS 3</div>
+                                                        <div class="count"></div>
+                                                        <div class="count-bar"></div>
+                                                    </div>
+                                                    <div class="skillbar" data-percent="85%">
+                                                        <div class="title">Javascript/jQuery</div>
+                                                        <div class="count"></div>
+                                                        <div class="count-bar"></div>
+                                                    </div>
+                                                    <div class="skillbar" data-percent="70%">
+                                                        <div class="title">SEO/SMO</div>
+                                                        <div class="count"></div>
+                                                        <div class="count-bar"></div>
+                                                    </div>
+                                                    <div class="skillbar" data-percent="80%">
+                                                        <div class="title">Graphic Design</div>
+                                                        <div class="count"></div>
+                                                        <div class="count-bar"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Colam-->
+                                    <div class="tab-pane col-md-12 col-sm-12" id="feature">
+                                         <div class=" row">
+                                            <figure class="col-md-6 col-sm-12 img text-center animated infinite fadeInRight">
+                                                <img src="img/features.png" alt="Team">
+                                            </figure>
+                                            <article class="col-md-6 col-sm-12 text-left">
+                                                <h3>Features</h3>
+                                                <p> </p>
+                                                <div class="btn">
+                                                    <a href="#">Read More</a>
+                                                < /div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<!--====== About End ======-->	
+			
+		<!--====== Services Start ======-->
+        <section class="services section-padding" id="services">
+            <div class="container">
+               <!--Section Header-->
+                <div class="row">
+                    <div class="section-header service">
+                        <h2>OUR<span> SERVICES</span></h2>
+                        <p>Pursuing Perfection and Moving Forward to make Impossible as Im'possible.</p>
+                    </div>
+                </div>
+                <!--Section Content-->
+                <div class="row">
+                    <div class="section-content">
+                       <!--Colam-->
+                        
+						<div id="d2">
+			<h1 align="center" id="x1">Depending on the type of business that you have, your site needs to be designed with functionality in mind.</h1>
+			<div id="d3">
+				<img class="i1" src="java.png">
+				<p id="q1" align="justify">Our web development services covers HTML/HTML5, CSS/CSS3, Bootstrap, AngularJS and Javascript/JQuery. Our dedicated web developers develop high quality professional websites for a variety of industries and business domains, including e-Commerce, Entertainment, Finance and more.</p>
+				<span id="s1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Java</span>
+				
+				
+				<img class="i1" src="wd.png">
+				<p id="q1" align="justify">Our Java development services offers Java Web Application Development, Java Application Development and Java Software Development. Our Java Professionals keeps abreast with java platform and development tools to ensure high quality Software Engineering Services.</p>
+				<span id="s2">&nbsp&nbsp&nbsp&nbsp  Webdesign</span>
+				
+				
+				<img class="i2" src="gd.png">
+				<p id="q1" align="justify">Our web development services covers HTML/HTML5, CSS/CSS3, Bootstrap, AngularJS and Javascript/JQuery. Our dedicated web developers develop high quality professional websites for a variety of industries and business domains, including e-Commerce, Entertainment, Finance and more.</p>
+				<span id="s3">&nbsp&nbsp&nbsp&nbsp&nbsp  Graphicdesign</span>
+			
+				
+				<img class="i2" src="dm.png">
+				<p id="q1" align="justify">Our web development services covers HTML/HTML5, CSS/CSS3, Bootstrap, AngularJS and Javascript/JQuery. Our dedicated web developers develop high quality professional websites for a variety of industries and business domains, including e-Commerce, Entertainment, Finance and more.</p>
+				<span id="s4">&nbsp&nbsp Digitalmarketing</span>
+				
+			</div>
+		</div>	
+		
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== Services End ======-->
+			
+        <!--====== Portfolio Start ======-->
+        <section class="portfolio section-padding" id="portfolio">
+             <div class="container">
+                <!--Section Header-->
+                <div class="row">
+                    <div class="section-header  Portfolios">
+                        <h2>OUR<span> Portfolio</span></h2>
+                        <p>FOUNDING THE FUTURE</p>
+                    </div>
+                </div>
+             </div>
+             <div class="container-fluid">
+                 <!--Portfolio Menu-->
+                 <div class="row">
+                     <div class="portfolio-menu button-group filter-button-group">
+                         <button class="button active mixitup-control-active" data-filter="all">All</button>
+                         <button class="button" data-filter=".web-design">Web Design</button>
+                         <button class="button" data-filter=".Java-Development">Java Developmet</button>
+                         <button class="button" data-filter=".graphic">Graphic Design</button>
+                         <button class="button" data-filter=".digital">Digital Marketing</button>
+					 </div>
+                 </div>
+                 <!--Portfolio Menu-->
+                 <div class="row grid parent-container">
+                    <!--Colam-->
+                    <div class="col-md-3 col-sm-4 mix grid-item web-design digital Java-Development graphic">
+                        <figure class="img">
+                           <a href="img/11.jpg"><img src="img/11.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+					 
+					 <!--Colam-->
+                    <div class="col-md-3 col-sm-4 mix grid-item digital">
+                        <figure class="img">
+                            <a href="img/1200.jpg"><img src="img/1200.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+					 
+					<!--Colam-->
+                    <div class="col-md-3 col-sm-4 mix grid-item web-design">
+                        <figure class="img">
+                            <a href="img/12.jpg"><img src="img/12.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+
+                    <!--Colam-->
+                    <div class="col-md-3 col-sm-4 mix grid-item graphic">
+                        <figure class="img">
+                            <a href="img/13.jpeg"><img src="img/13.jpeg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+					
+                    <!--Colam-->
+                    <div class="col-md-3 col-sm-4 mix grid-item web-design">
+                        <figure class="img">
+                            <a href="img/portfolio/5.jpg"><img src="img/portfolio/5.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+					
+					<!--Colam-->
+					 <div class="col-md-3 col-sm-4 mix grid-item digital">
+                        <figure class="img">
+                            <a href="img/portfolio/3.jpg"><img src="img/portfolio/3.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+                      				
+					<!--Colam-->
+					<div class="col-md-3 col-sm-4 mix grid-item Java-Development graphic">
+                        <figure class="img">
+                            <a href="img/portfolio/7.jpg"><img src="img/portfolio/7.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+				
+					<!--Colam-->
+					<div class="col-md-3 col-sm-4 mix grid-item Java-Development">
+                        <figure class="img">
+                            <a href="img/portfolio/8.jpg"><img src="img/portfolio/8.jpg" alt="portfolio"><i class="fa fa-arrows" aria-hidden="true"></i></a>
+                        </figure>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <!--====== Portfolio End ======-->
+        
+        <!--====== Testimonial Start ======-->
+		<section class="testimonial section-padding" id="testimonial">
+            <div class="container background">
+                <!--Section Header-->
+                <div class="row">
+                    <div class="section-header">
+                        
+                    </div>
+                </div>
+                <!--Section Content-->
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                        <div class="testimonial-content">
+                            <div id="owl-demo" class="owl-carousel owl-theme">
+                                 <div class="item">
+									
+									
+									
+									
+									
+									<div class="container" align="center">
+  <div class="w3-container w3-center w3-animate-top">
+  <h1 style="color:white;margin:0px 250px 0px 0px">OUR ATTORNEY</h1>
+  <br><br>            
+ <img src="raj2.png" style="margin:0px 250px 0px 0px" id="i1" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+</div><br><br>
+</div>
+<div class="w3-container w3-center w3-animate-bottom ">
+  <h3 class="a" style="color:white;font-weight:400;">Upanand Kolhe<br><br>
+  
+  Ph: 9133660113 &nbsp&nbsp&nbsp&nbsp
+Email: upanandklh@gmail.com
+  
+  
+  
+  
+  </h3>
+  
+  
+</div>
+
+
+<script>
+$(document).ready(function() {
+$('.a').delay(3000).fadeIn(500);
+});
+</script>
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+                                </div>
+								
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+		
+		<!--====== Team Start ======-->
+		<section class="team section-padding" id="team">
+            <div class="container">
+                <!--Section Header-->
+                <div class="row">
+                    <div class="section-header expertpanel">
+                        <h2>OUR <span> Expert</span> PANEL</h2>
+                        <p>We have a great Team who believe in "One Team, One Dream".</p>
+                    </div>
+                </div>
+                <!--Section Centent-->
+                <div class="row">
+                    <div class="section-content">
+                        <div id="team-owl-demo" class="owl-carousel owl-theme">
+                            <!--Costom Colam-->
+                            <div class="item">
+                                <img src="img/team/team-1.jpg" alt="team">
+                                <div class="img-content">
+                                    <h4>Mr.RamaKrishna</h4>
+                                    <p>Web Developer</p>
+                                    <div class="icon">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Costom Colam-->
+                            <div class="item">
+                                <img src="img/team/team-2.jpg" alt="team">
+                                <div class="img-content">
+                                    <h4>Mr. Nani</h4>
+                                    <p>Sr.Graphic Designer</p>
+                                    <div class="icon">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Costom Colam-->
+                            <div class="item pic">
+                                <img src="aaa.jpg" alt="team">
+                                <div class="img-content">
+                                    <h4>Ms.Divya Kumari</h4>
+                                    <p>Graphic Designer</p>
+                                    <div class="icon">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Costom Colam-->
+                            <div class="item">
+                                <img src="img/team/team-4.jpg" alt="team">
+                                <div class="img-content">
+                                    <h4>Mr. Chakravarthy</h4>
+                                    <p>Sr. Java Developer</p>
+                                    <div class="icon">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Costom Colam-->
+                            <div class="item">
+                                <img src="img/team/team-5.jpg" alt="team">
+                                <div class="img-content">
+                                    <h4>Mrs.Jhansi</h4>
+                                    <p>Seo</p>
+                                    <div class="icon">
+                                        <ul>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		 <!--====== Team End ======-->
+			
+			
+       <!--====== Latest Blog Strat ======-->
+        
+        
+			
+		<!--====== Contact Us Start ======-->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <!--Section Header-->
+                <div class="row">
+                    <div class="section-header">
+                        <h2><span>Contact</span> Us</h2>
+                        <p>Prilor IT Solutions PVT LTD is all set to get you into your dream career 
+						with professional guidance in various domains of diversified clients and corporate network.</p>
+                    </div>
+                </div>
+                <form action="#" class="row">
+                    <div class="section-content">
+                       <!--Colam-->
+                        <div class="col-md-6 col-sm-12">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 wow fadeInLeft">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-12">
+                                            <input type="text" placeholder="First Name" required>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12">
+                                            <input type="text" placeholder="Last Name" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <textarea placeholder="Your Massage" required></textarea>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Colam-->
+                        <div class="col-md-3 col-sm-12 wow fadeInRight">
+                            <strong>Prilor IT Solutions</strong>
+                            <p style="text-align:justify;">Prilor Company is integrated with Information, Design and Technology. We Think in New Ways & Dimensions as we Believe in "our Potential, your Passion".</p>
+                        </div>
+                        <!--Colam-->
+                        <div class="col-md-3 col-sm-12">
+                            <address>
+                                 <p><i class="fa fa-home"></i>Prilor Tech, 4th Floor, Pawani Plaza, Oppo. to Joyalukkas Building, Punjagutta, Hyderabad, Telangana. 500086</p>
+                                 <p><abbr title="Call"><i class="fa fa-phone"></i></abbr> +91-913-332-3700</p>
+                                 <p><i class="fa fa-envelope-o"></i>contact@prilortech.com</p>
+                            </address>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--====== Contact Us End ======-->
+			
+			
+		<!--====== Footer Start ======-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="social-contact">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-rss"></i></a></li>
+                            <li> <a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"> <i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"> <i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p>&copy; 2017 Prilor IT Solutions - All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--====== Footer End ======-->
+			
+		
+		<!--====== Scroll To Top ======-->
+		 <div class="scrolltotop">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </div>
+        <!--====== Scroll To Top ======-->
+        <!--===============================================================================-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <!--=== All Plugin ===-->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery.lettering.js"></script>
+        <script type="text/javascript" src="js/jquery.textillate.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/isotope.pkgd.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.compatibility.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="js/jquery.star-rating-svg.min.js"></script>
+        <script type="text/javascript" src="js/mixitup.min.js"></script>
+        <script type="text/javascript" src="../../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+        <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='../../../../www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    	
+			
+			
+			
+		    </body>
+
+<!-- Mirrored from envato.themeasia.net/habiba/habiba-all-damo/habiba-demo-2/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 May 2017 05:53:54 GMT -->
+</html>
